@@ -1,8 +1,8 @@
 /* Global Layout Set-up */
-* { 
+* {
   box-sizing: border-box;
 }
-  
+
 body {
   margin: 0;
   padding: 0;
@@ -19,6 +19,10 @@ a {
 }
 a:hover {
   color: #6633ff;
+}
+
+.showcase_links {
+  color: #7ac5cd;
 }
 
 /* Section Styles */
@@ -83,10 +87,14 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
-} 
+}
 .location {
   background-color: #222;
   color: yellow;
+}
+
+.experience_h2 {
+  text-decoration: underline;
 }
 .card {
   margin: 30px;
@@ -95,7 +103,7 @@ header .profile-image:hover {
   text-align: left;
   background: #fff;
   border-top: 4px solid #ccc;
-  border-radius: 6px;
+  border-radius: 6px 20px;
   transition: all .5s;
   box-shadow: 10px 10px 5px #888;
 }
@@ -111,8 +119,8 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
-  color: white;
+  background: #04e8ff;
+  color: #D9D999;
   padding: 5px 10px;
   margin: 2px;
 }
@@ -125,6 +133,9 @@ footer {
   width: 100%;
   min-height: 30px;
   padding: 20px 0 40px 20px;
+  background-color: #BEDCFD;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 footer .copyright {
@@ -170,10 +181,10 @@ a.social:hover {
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
-  
+
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
-      display: flex; 
+      display: flex;
       max-width: 1200px;
       -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -200,9 +211,7 @@ a.social:hover {
 
   footer {
     font-size: 1.3em;
-    max-width: 1200px;
-    margin: 40px auto;
+    margin-top: 40px;
   }
 
 }
-
