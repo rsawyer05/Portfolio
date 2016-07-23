@@ -66,6 +66,15 @@ header {
   overflow: hidden;
   padding-top: 60px;
 }
+
+.e_header {
+  text-align: center;
+  background: url('images/little-rock.jpg') no-repeat left center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
 header {
   line-height: 1.5;
 }
@@ -151,6 +160,10 @@ footer ul {
 
 footer ul li {
   display: inline-block;
+}
+
+.btt {
+  font-size: .75em;
 }
 
 a.social {
