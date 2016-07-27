@@ -41,7 +41,6 @@ a:hover {
   font-weight: 700;
   list-style-type: none;
   margin: 0 auto;
-  padding: 0;
 }
 
 .nav .name {
@@ -54,6 +53,8 @@ a:hover {
 }
 .nav a {
   transition: all .5s;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .nav a:hover {
   color: white
@@ -129,7 +130,7 @@ ul.skills {
   border-radius: 6px;
   display: inline-block;
   background: #04e8ff;
-  color: #D9D999;
+  color: yellow;
   padding: 5px 10px;
   margin: 2px;
 }
